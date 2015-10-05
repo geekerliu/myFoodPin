@@ -25,6 +25,8 @@
 		01A6F4431BB6863A00E4C6C0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6F4421BB6863A00E4C6C0 /* Restaurant.swift */; settings = {ASSET_TAGS = (); }; };
 		01A6F4471BB6961000E4C6C0 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		01CE77C81BC15D5600ACC74D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77C71BC15D5600ACC74D /* PageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		01CE77CA1BC2677200ACC74D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77C91BC2677200ACC74D /* AboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		01CE77CC1BC267AD00ACC74D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77CB1BC267AD00ACC74D /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		01F932EE1BC0E8B100146200 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F932ED1BC0E8B100146200 /* PageContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		01A6F4421BB6863A00E4C6C0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		01CE77C71BC15D5600ACC74D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		01CE77C91BC2677200ACC74D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		01CE77CB1BC267AD00ACC74D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		01F932ED1BC0E8B100146200 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +137,8 @@
 				018830971BBE158F0018648E /* AddTableTableViewController.swift */,
 				01F932ED1BC0E8B100146200 /* PageContentViewController.swift */,
 				01CE77C71BC15D5600ACC74D /* PageViewController.swift */,
+				01CE77C91BC2677200ACC74D /* AboutViewController.swift */,
+				01CE77CB1BC267AD00ACC74D /* WebViewController.swift */,
 				01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */,
 				01A6F43E1BB51A0700E4C6C0 /* CustomTableViewCell.swift */,
 				01A6F4121BB4E29000E4C6C0 /* Main.storyboard */,
@@ -307,8 +313,10 @@
 				01A6F43D1BB4E67600E4C6C0 /* RestaurantTableViewController.swift in Sources */,
 				01A6F40F1BB4E29000E4C6C0 /* AppDelegate.swift in Sources */,
 				01F932EE1BC0E8B100146200 /* PageContentViewController.swift in Sources */,
+				01CE77CA1BC2677200ACC74D /* AboutViewController.swift in Sources */,
 				01CE77C81BC15D5600ACC74D /* PageViewController.swift in Sources */,
 				010DF5D51BB8F29800747D4A /* ShareViewController.swift in Sources */,
+				01CE77CC1BC267AD00ACC74D /* WebViewController.swift in Sources */,
 				01A6F4411BB649A300E4C6C0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
