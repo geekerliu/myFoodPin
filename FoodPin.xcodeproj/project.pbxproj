@@ -24,6 +24,8 @@
 		01A6F4411BB649A300E4C6C0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6F4401BB649A300E4C6C0 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		01A6F4431BB6863A00E4C6C0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6F4421BB6863A00E4C6C0 /* Restaurant.swift */; settings = {ASSET_TAGS = (); }; };
 		01A6F4471BB6961000E4C6C0 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		01CE77C81BC15D5600ACC74D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77C71BC15D5600ACC74D /* PageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		01F932EE1BC0E8B100146200 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F932ED1BC0E8B100146200 /* PageContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		01A6F4401BB649A300E4C6C0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		01A6F4421BB6863A00E4C6C0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		01CE77C71BC15D5600ACC74D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		01F932ED1BC0E8B100146200 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				010DF5D41BB8F29800747D4A /* ShareViewController.swift */,
 				011F1C121BBD42D1000882AE /* MapViewController.swift */,
 				018830971BBE158F0018648E /* AddTableTableViewController.swift */,
+				01F932ED1BC0E8B100146200 /* PageContentViewController.swift */,
+				01CE77C71BC15D5600ACC74D /* PageViewController.swift */,
 				01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */,
 				01A6F43E1BB51A0700E4C6C0 /* CustomTableViewCell.swift */,
 				01A6F4121BB4E29000E4C6C0 /* Main.storyboard */,
@@ -300,6 +306,8 @@
 				011F1C131BBD42D1000882AE /* MapViewController.swift in Sources */,
 				01A6F43D1BB4E67600E4C6C0 /* RestaurantTableViewController.swift in Sources */,
 				01A6F40F1BB4E29000E4C6C0 /* AppDelegate.swift in Sources */,
+				01F932EE1BC0E8B100146200 /* PageContentViewController.swift in Sources */,
+				01CE77C81BC15D5600ACC74D /* PageViewController.swift in Sources */,
 				010DF5D51BB8F29800747D4A /* ShareViewController.swift in Sources */,
 				01A6F4411BB649A300E4C6C0 /* DetailViewController.swift in Sources */,
 			);

@@ -56,6 +56,14 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         searchController.searchResultsUpdater = self
         // 搜索的时候不让背景模糊，因为用的是同一个tableView
         searchController.dimsBackgroundDuringPresentation = false
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let hasViewedWalkthrough = defaults.boolForKey("hasViewWalkthrough")
+        if hasViewedWalkthrough == false {
+            if let pageViewController = storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as? PageViewController {
+                self.presentViewController(pageViewController, animated: true, completion: nil)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
