@@ -102,12 +102,12 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     }
     
     override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
-        let shareAction = UITableViewRowAction(style: .Default, title: "Share") { (action, indexPath) -> Void in
-            let shareMenu = UIAlertController(title: nil, message: "Share using", preferredStyle: .ActionSheet)
-            let twitterAction = UIAlertAction(title: "Twitter", style: .Default, handler: nil)
-            let facebookAction = UIAlertAction(title: "FaceBook", style: .Default, handler: nil)
-            let emailAction = UIAlertAction(title: "Email", style: .Default, handler: nil)
-            let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
+        let shareAction = UITableViewRowAction(style: .Default, title: NSLocalizedString("Share", comment: "Share action")) { (action, indexPath) -> Void in
+            let shareMenu = UIAlertController(title: nil, message: NSLocalizedString("Share using", comment: "For social sharing"), preferredStyle: .ActionSheet)
+            let twitterAction = UIAlertAction(title: NSLocalizedString("Twitter", comment: "For sharing on Twitter"), style: .Default, handler: nil)
+            let facebookAction = UIAlertAction(title: NSLocalizedString("FaceBook", comment: "For sharing on Facebook"), style: .Default, handler: nil)
+            let emailAction = UIAlertAction(title: NSLocalizedString("Email", comment: "For sharing on Email"), style: .Default, handler: nil)
+            let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: "Cancel"), style: .Cancel, handler: nil)
             
             shareMenu.addAction(twitterAction)
             shareMenu.addAction(facebookAction)
@@ -117,7 +117,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
             self.presentViewController(shareMenu, animated: true, completion: nil)
         }
         
-        let deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
+        let deleteAction = UITableViewRowAction(style: .Default, title: NSLocalizedString("Delete", comment: "Delete action")) { (action, indexPath) -> Void in
             // Delete the row from the data source
             let managedObjectContext = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
             let restaurantToDelete = self.fetchResultController.objectAtIndexPath(indexPath) as! Restaurant

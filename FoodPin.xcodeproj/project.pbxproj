@@ -27,6 +27,11 @@
 		01CE77C81BC15D5600ACC74D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77C71BC15D5600ACC74D /* PageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		01CE77CA1BC2677200ACC74D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77C91BC2677200ACC74D /* AboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		01CE77CC1BC267AD00ACC74D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE77CB1BC267AD00ACC74D /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		01CE78081BC3824000ACC74D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CE780A1BC3824000ACC74D /* Localizable.strings */; };
+		01CE780D1BC3824100ACC74D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CE780F1BC3824100ACC74D /* InfoPlist.strings */; };
+		01CE78131BC3824200ACC74D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CE78151BC3824200ACC74D /* InfoPlist.strings */; };
+		01CE78181BC3824200ACC74D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CE781A1BC3824200ACC74D /* InfoPlist.strings */; };
+		01CE781D1BC3B93500ACC74D /* aboutfoodpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CE781F1BC3B93500ACC74D /* aboutfoodpin.png */; };
 		01F932EE1BC0E8B100146200 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F932ED1BC0E8B100146200 /* PageContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -74,6 +79,14 @@
 		01CE77C71BC15D5600ACC74D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		01CE77C91BC2677200ACC74D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		01CE77CB1BC267AD00ACC74D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		01CE78051BC3824000ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		01CE78091BC3824000ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		01CE780E1BC3824100ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		01CE78101BC3824100ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		01CE78141BC3824200ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		01CE78191BC3824200ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		01CE781E1BC3B93500ACC74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/aboutfoodpin.png; sourceTree = "<group>"; };
+		01CE78201BC3B96D00ACC74D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/aboutfoodpin.png"; sourceTree = "<group>"; };
 		01F932ED1BC0E8B100146200 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +140,8 @@
 		01A6F40D1BB4E29000E4C6C0 /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				01CE78151BC3824200ACC74D /* InfoPlist.strings */,
+				01CE780A1BC3824000ACC74D /* Localizable.strings */,
 				01A6F40E1BB4E29000E4C6C0 /* AppDelegate.swift */,
 				01A6F4421BB6863A00E4C6C0 /* Restaurant.swift */,
 				01A6F43C1BB4E67600E4C6C0 /* RestaurantTableViewController.swift */,
@@ -142,6 +157,7 @@
 				01A6F4461BB6961000E4C6C0 /* DetailTableViewCell.swift */,
 				01A6F43E1BB51A0700E4C6C0 /* CustomTableViewCell.swift */,
 				01A6F4121BB4E29000E4C6C0 /* Main.storyboard */,
+				01CE781F1BC3B93500ACC74D /* aboutfoodpin.png */,
 				01A6F4151BB4E29000E4C6C0 /* Assets.xcassets */,
 				01A6F4171BB4E29000E4C6C0 /* LaunchScreen.storyboard */,
 				01A6F41A1BB4E29000E4C6C0 /* Info.plist */,
@@ -153,6 +169,7 @@
 		01A6F4221BB4E29000E4C6C0 /* FoodPinTests */ = {
 			isa = PBXGroup;
 			children = (
+				01CE781A1BC3824200ACC74D /* InfoPlist.strings */,
 				01A6F4231BB4E29000E4C6C0 /* FoodPinTests.swift */,
 				01A6F4251BB4E29000E4C6C0 /* Info.plist */,
 			);
@@ -162,6 +179,7 @@
 		01A6F42D1BB4E29000E4C6C0 /* FoodPinUITests */ = {
 			isa = PBXGroup;
 			children = (
+				01CE780F1BC3824100ACC74D /* InfoPlist.strings */,
 				01A6F42E1BB4E29000E4C6C0 /* FoodPinUITests.swift */,
 				01A6F4301BB4E29000E4C6C0 /* Info.plist */,
 			);
@@ -258,6 +276,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 01A6F4021BB4E29000E4C6C0;
 			productRefGroup = 01A6F40C1BB4E29000E4C6C0 /* Products */;
@@ -277,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A6F4191BB4E29000E4C6C0 /* LaunchScreen.storyboard in Resources */,
+				01CE781D1BC3B93500ACC74D /* aboutfoodpin.png in Resources */,
+				01CE78081BC3824000ACC74D /* Localizable.strings in Resources */,
 				01A6F4161BB4E29000E4C6C0 /* Assets.xcassets in Resources */,
 				01A6F4141BB4E29000E4C6C0 /* Main.storyboard in Resources */,
+				01CE78131BC3824200ACC74D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CE78181BC3824200ACC74D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CE780D1BC3824100ACC74D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +381,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				01A6F4131BB4E29000E4C6C0 /* Base */,
+				01CE78101BC3824100ACC74D /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,8 +390,50 @@
 			isa = PBXVariantGroup;
 			children = (
 				01A6F4181BB4E29000E4C6C0 /* Base */,
+				01CE78051BC3824000ACC74D /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01CE780A1BC3824000ACC74D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE78091BC3824000ACC74D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		01CE780F1BC3824100ACC74D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE780E1BC3824100ACC74D /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01CE78151BC3824200ACC74D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE78141BC3824200ACC74D /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01CE781A1BC3824200ACC74D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE78191BC3824200ACC74D /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01CE781F1BC3B93500ACC74D /* aboutfoodpin.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE781E1BC3B93500ACC74D /* Base */,
+				01CE78201BC3B96D00ACC74D /* zh-Hans */,
+			);
+			name = aboutfoodpin.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

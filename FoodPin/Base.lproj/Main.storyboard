@@ -329,7 +329,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q38-2o-rP5">
-                                                    <rect key="frame" x="16" y="37" width="39" height="30"/>
+                                                    <rect key="frame" x="16" y="37" width="70" height="30"/>
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.1039663844" blue="0.1341283039" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -339,7 +339,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWB-OY-Saq">
-                                                    <rect key="frame" x="71" y="37" width="39" height="30"/>
+                                                    <rect key="frame" x="100" y="37" width="70" height="30"/>
                                                     <animations/>
                                                     <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -697,7 +697,7 @@
                                     <segue destination="vp4-X4-IJf" kind="push" id="ehf-cl-Zmf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-Zk-A7H">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutfoodpin.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-Zk-A7H">
                                 <rect key="frame" x="60" y="84" width="200" height="200"/>
                                 <animations/>
                             </imageView>
@@ -872,6 +872,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="aboutfoodpin.png" width="1024" height="1024"/>
         <image name="bad" width="64" height="64"/>
         <image name="cafeloisl" width="640" height="640"/>
         <image name="camera" width="256" height="256"/>
